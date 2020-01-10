@@ -1,0 +1,15 @@
+{
+    "domain": ":",
+    "http": {
+        "port": 5500
+    },
+    "https": {
+        "on": false,
+        "port": 443,
+        "keys": {
+            "key": "../../../../etc/letsencrypt/live/skyload.org/privkey.pem",
+            "cert": "../../../../etc/letsencrypt/live/skyload.org/cert.pem",
+            "ca": "../../../../etc/letsencrypt/live/skyload.org/chain.pem"
+        }
+    }
+}
