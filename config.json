@@ -1,10 +1,22 @@
 {
-    "domain": ":",
+    "domain": "skyload.org",
+    "webs": [
+        {
+            "on": true,
+            "host": "www.skyload.org",
+            "dir": "webs/web1/build"
+        },
+        {
+            "on": true,
+            "host": "fivestars.skyload.org",
+            "dir": "webs/web2/build"
+        }
+    ],
     "http": {
-        "port": 5500
+        "port": 80
     },
     "https": {
-        "on": false,
+        "on": true,
         "port": 443,
         "keys": {
             "key": "../../../../etc/letsencrypt/live/skyload.org/privkey.pem",
@@ -13,3 +25,4 @@
         }
     }
 }
+
